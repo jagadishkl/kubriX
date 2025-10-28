@@ -1,0 +1,12 @@
+clusterType: kind
+cloudProvider: on-prem
+dnsProvider: none
+tShirtSize: small
+securityStrict: false
+haEnabled: false
+domain: 127-0-0-1.nip.io
+gitRepo: https://github.com/jagadishkl/kubriX.git
+gitRepoOrg: jagadishkl
+gitRepoName: kubriX
+gitUser: jagadishkl
+metalLbIp:  

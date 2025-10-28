@@ -1,0 +1,12 @@
+pgadmin4:
+  domainName: .demo.kubrix.cloud
+  ingress:
+    hosts:
+      - host: pgadmin.demo.kubrix.cloud
+        paths:
+          - path: /
+            pathType: Prefix
+    tls:
+      - secretName: pgadmin-server-tls
+        hosts:
+          - pgadmin.demo.kubrix.cloud

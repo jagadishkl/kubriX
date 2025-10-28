@@ -1,0 +1,12 @@
+pgadmin4:
+  domainName: .127-0-0-1.nip.io
+  ingress:
+    hosts:
+      - host: pgadmin.127-0-0-1.nip.io
+        paths:
+          - path: /
+            pathType: Prefix
+    tls:
+      - secretName: pgadmin-server-tls
+        hosts:
+          - pgadmin.127-0-0-1.nip.io

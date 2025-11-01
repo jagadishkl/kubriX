@@ -1,6 +1,6 @@
 
 <h3>Target <code>ghcr.io/suxess-it/sx-backstage:v1.38.1 (debian 12.11)</code></h3>
-<h4>Vulnerabilities (318)</h4>
+<h4>Vulnerabilities (315)</h4>
 <table>
     <tr>
         <th>Package</th>
@@ -641,6 +641,13 @@
     </tr>
     <tr>
         <td><code>linux-libc-dev</code></td>
+        <td>CVE-2025-22083</td>
+        <td>HIGH</td>
+        <td>6.1.140-1</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td><code>linux-libc-dev</code></td>
         <td>CVE-2025-22104</td>
         <td>HIGH</td>
         <td>6.1.140-1</td>
@@ -663,6 +670,13 @@
     <tr>
         <td><code>linux-libc-dev</code></td>
         <td>CVE-2025-37750</td>
+        <td>HIGH</td>
+        <td>6.1.140-1</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td><code>linux-libc-dev</code></td>
+        <td>CVE-2025-37786</td>
         <td>HIGH</td>
         <td>6.1.140-1</td>
         <td></td>
@@ -2027,13 +2041,6 @@
     </tr>
     <tr>
         <td><code>linux-libc-dev</code></td>
-        <td>CVE-2025-40026</td>
-        <td>HIGH</td>
-        <td>6.1.140-1</td>
-        <td></td>
-    </tr>
-    <tr>
-        <td><code>linux-libc-dev</code></td>
         <td>CVE-2025-40029</td>
         <td>HIGH</td>
         <td>6.1.140-1</td>
@@ -2049,34 +2056,6 @@
     <tr>
         <td><code>linux-libc-dev</code></td>
         <td>CVE-2025-40040</td>
-        <td>HIGH</td>
-        <td>6.1.140-1</td>
-        <td></td>
-    </tr>
-    <tr>
-        <td><code>linux-libc-dev</code></td>
-        <td>CVE-2025-40048</td>
-        <td>HIGH</td>
-        <td>6.1.140-1</td>
-        <td></td>
-    </tr>
-    <tr>
-        <td><code>linux-libc-dev</code></td>
-        <td>CVE-2025-40051</td>
-        <td>HIGH</td>
-        <td>6.1.140-1</td>
-        <td></td>
-    </tr>
-    <tr>
-        <td><code>linux-libc-dev</code></td>
-        <td>CVE-2025-40053</td>
-        <td>HIGH</td>
-        <td>6.1.140-1</td>
-        <td></td>
-    </tr>
-    <tr>
-        <td><code>linux-libc-dev</code></td>
-        <td>CVE-2025-40056</td>
         <td>HIGH</td>
         <td>6.1.140-1</td>
         <td></td>
@@ -2238,7 +2217,7 @@
 </table>
 <h4>No Misconfigurations found</h4>
 <h3>Target <code>Node.js</code></h3>
-<h4>Vulnerabilities (17)</h4>
+<h4>Vulnerabilities (18)</h4>
 <table>
     <tr>
         <th>Package</th>
@@ -2365,6 +2344,13 @@
         <td>HIGH</td>
         <td>3.0.9</td>
         <td>3.1.1, 2.1.4, 1.16.6</td>
+    </tr>
+    <tr>
+        <td><code>typeorm</code></td>
+        <td>CVE-2025-60542</td>
+        <td>HIGH</td>
+        <td>0.3.24</td>
+        <td>0.3.26</td>
     </tr>
 </table>
 <h4>No Misconfigurations found</h4>
